@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100;1,300&display=swap');
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* --------------------------------home------------------------------------------------ */
+.home{
+  height: 95vh;
+}
+/* --------------------------------user cart-------------------------------------------------- */
+.userCart{
+  overflow-y: scroll;
+  max-height: 32rem;
+}
+.userCart::-webkit-scrollbar {
+    display: none;
+}
+/* --------------------------------Editor css-------------------------------------------------- */
+.rdw-inline-wrapper{
+  display: none !important;
+}
+.rdw-block-wrapper{
+  display: none !important;
+}
+.rdw-dropdown-wrapper{
+  display: none !important;
+}
+.rdw-list-wrapper{
+  display: none !important;
+}
+.rdw-text-align-wrapper{
+  display: none !important;
+}
+.rdw-option-wrapper{
+  display: none !important;
+}
+.rdw-editor-toolbar{
+  justify-content: center !important;
+}
